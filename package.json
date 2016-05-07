@@ -1,0 +1,28 @@
+{
+  "name": "shows_to_see",
+  "version": "1.0.0",
+  "description": "to do app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.15",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriscampbell32/shows_to_see.git"
+  },
+  "author": "chris campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriscampbell32/shows_to_see/issues"
+  },
+  "homepage": "https://github.com/chriscampbell32/shows_to_see#readme"
+}
