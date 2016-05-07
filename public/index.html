@@ -1,26 +1,15 @@
-<!-- index.html -->
 <!doctype html>
-
-<!-- ASSIGN OUR ANGULAR MODULE -->
 <html ng-app="concertTodo">
 <head>
-    <!-- META -->
+    
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Node/Angular Todo App</title>
+    <title>Shows to See!</title>
 
-    <!-- SCROLLS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
-    <style>
-        html                    { overflow-y:scroll; }
-        body                    { padding-top:50px; }
-        #todo-list              { margin-bottom:30px; }
-    </style>
-
-    <!-- SPELLS -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
     <script src="core.js"></script>
 
 </head>
@@ -30,7 +19,7 @@
 
         <!-- HEADER AND TODO COUNT -->
         <div class="jumbotron text-center">
-            <h1>I'm a Todo-aholic <span class="label label-info">{{ todos.length }}</span></h1>
+            <h1>Shows to see: <span class="label label-info">{{ todos.length }}</span></h1>
         </div>
 
         <!-- TODO LIST -->
